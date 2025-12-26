@@ -95,9 +95,6 @@ The solution follows **industry best practices** by separating raw and curated d
 
 ![Power BI Dashboard](images/powerbi_dashboard.png)
 
-🔐 Security Note:
-All credentials and secrets are excluded from this repository and are expected to be provided via environment variables or secure secret management services.
-
 ---
 
 ## 📈 Key Features
@@ -106,6 +103,8 @@ All credentials and secrets are excluded from this repository and are expected t
 - Combination of **low-code (ADF)** and **code-based (PySpark)** transformations
 - Analytics-ready data model for BI consumption
 - Designed for future CI/CD and ML integration
+- 🔐 Security Note:
+All credentials and secrets are excluded from this repository and are expected to be provided via environment variables or secure secret management services.
 
 ---
 
