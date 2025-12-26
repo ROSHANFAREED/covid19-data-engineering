@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "covid-project-roshan"
+        },
+        "AzureBlobStorage1_Popn_by_Age_connectionString": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "ls_databricks_covid_population_data_accessToken": {
+            "value": ""
+        },
+        "ls_sql_covid_db_password": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://adlsgen2covid.dfs.core.windows.net/"
+        },
+        "Http_ecdc_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com"
+        },
+        "ls_databricks_covid_population_data_properties_typeProperties_existingClusterId": {
+            "value": "1224-052304-25c4daxn"
+        },
+        "ls_sql_covid_db_properties_typeProperties_server": {
+            "value": "covid19db.database.windows.net"
+        },
+        "ls_sql_covid_db_properties_typeProperties_database": {
+            "value": "covid-db"
+        },
+        "ls_sql_covid_db_properties_typeProperties_userName": {
+            "value": "roshan"
+        },
+        "trigger_on_population_file_arrival_to_blob_properties_typeProperties_scope": {
+            "value": "/subscriptions/6ab55b01-0a83-47de-b230-2afaafca7658/resourceGroups/COVID-19-PROJECT/providers/Microsoft.Storage/storageAccounts/covid19projectsa"
+        }
+    }
+}
