@@ -9,7 +9,8 @@ The solution follows **industry best practices** by separating raw and curated d
 
 ## 🏗️ Architecture Overview
 
-![Architecture](images/architecture.png)
+![Azure Data Engineering Architecture](architecture/covid19_azure_architecture.png)
+
 
 ### High-level Flow:
 1. Data ingestion from public sources and blob storage
