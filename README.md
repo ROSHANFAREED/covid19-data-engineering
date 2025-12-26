@@ -95,6 +95,9 @@ The solution follows **industry best practices** by separating raw and curated d
 
 ![Power BI Dashboard](images/powerbi_dashboard.png)
 
+🔐 Security Note:
+All credentials and secrets are excluded from this repository and are expected to be provided via environment variables or secure secret management services.
+
 ---
 
 ## 📈 Key Features
